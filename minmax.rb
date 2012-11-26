@@ -1,7 +1,7 @@
 puts "enter a"
-a = gets
+a = gets.delete("\n")
 puts "enter b"
-b = gets
+b = gets.delete("\n")
 
 if a > b
   puts "#{a} > #{b}"
